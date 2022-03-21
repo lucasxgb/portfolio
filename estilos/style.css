@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+ 
+body {
+
+     background: linear-gradient(236.85deg, #041832 27.26%, #3468A7 96.03%);
+     font-family: 'Roboto', sans-serif;
+ }
+
+.container{
+    color: #1C1C1C;
+    padding: 54px;
+    margin: 54px;
+    background-color: #ECF4FF;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.548);
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.perfil{
+    display: flex;
+    
+}
+
+.foto-perfil{
+    border-radius: 400px;
+    max-height: 160px;
+    max-width: 160px;
+    box-shadow:  0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.textos{
+    margin-left: 15px;
+}
+
+.textos h1{
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.textos h3{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.projetos{
+    font-family: "Roboto", sans-serif;
+    background:  linear-gradient(236.85deg, #3468A7 27.26%, #6ea7ec 96.03%);
+    border-radius: 10px ;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    box-shadow:  0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 32px;
+}
+
+.projetos ul{
+    list-style: none;
+    font-weight: 700;
+    font-size: 25px;   
+}
+
+.titulos{
+    color: #1C1C1C;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+}
+ 
+.botao button{
+    font-family: "Roboto", sans-serif;
+    border-color: #1C1C1C;
+    cursor: pointer; 
+    background: #ECF4FF;
+    align-self: flex-end;
+    padding: 8px 16px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: 400;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) ;
+}
+
+.botao button:hover{
+    background: #dce1e9;
+    border-color:rgb(94, 93, 93)C1C ;
+}
+
+.dark {
+    background: linear-gradient(236,85degm #375b86 27.26%, #6b87a9 96.03%);
+}
+
+.dark .container{
+    background-color: #333439;
+    color: #F6F6F6;
+} 
+
+.dark .projetos{
+    color: #1C1C1C;
+}
+
+.dark .botao button{
+    background: #1C1C1C;
+    color: #ECF4FF;
+    border:1px solid #f7f7f7 ;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) ;
+}
+
